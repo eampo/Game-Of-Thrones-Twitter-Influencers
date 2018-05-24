@@ -7,20 +7,45 @@
 
 \f0\fs24 \cf0 SELECT\
   *\
-FROM \
-  (SELECT created_at,  \
-          id,\
-          id_str,\
-          extended_entities.media.source_status_id_str,\
-          extended_entities.media.id_str,\
-          text,\
-          source,\
-          truncated,\
-          in_reply_to_status_id,\
-          in_reply_to_user_id,\
-          in_reply_to_status_id_str,\
-          in_reply_to_screen_name,\
-          user.id,\
-          user.id_str,\
-    FROM \
-          tweet_collector_bq.tweets)}
+FROM (\
+  SELECT\
+    created_at,\
+    id,\
+    id_str,\
+    text,\
+    source,\
+    truncated,\
+    in_reply_to_status_id,\
+    in_reply_to_user_id,\
+    in_reply_to_status_id_str,\
+    in_reply_to_screen_name,\
+    user.id,\
+    user.id_str,\
+    user.name,\
+    user.screen_name,\
+    user.location,\
+    user.url,\
+    user.description,\
+    user.protected,\
+    user.verified,\
+    user.followers_count,\
+    user.friends_count,\
+    user.listed_count,\
+    user.favourites_count,\
+    user.statuses_count,\
+    user.created_at,\
+    user.time_zone,\
+    user.geo_enabled,\
+    user.lang,\
+    retweeted_status.created_at,\
+    retweeted_status.id,\
+    retweeted_status.id_str,\
+    retweet_count,\
+    favorite_count,\
+    entities.hashtags.text,\
+    favorited,\
+    retweeted,\
+    timestamp_ms,\
+    lang\
+  FROM\
+    tweet_collector_bq.tweets)}
