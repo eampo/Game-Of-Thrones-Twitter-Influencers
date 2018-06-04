@@ -9,22 +9,20 @@ Team Members:
 Elijah Ampo, Ramkumar Shanker, Chris Stavropoulos
 
 
-NOTES: Google suspended our Google Cloud Platform projected for 'mining cryptocurrency'. We have filed an appeal but they have not reinstated our project as of today, 6/3/2018.  
-
-
-
 FILES:
   
   DEPA_FinalProject_DatumIpsum.rar - R, Python, Web Scraper, MongoDB and SQL scripts. (and Tableau workbook for dashboard 1 - cast dashboard)
 
 
 ADDITIONAL FILES/LINKS:
-    Twitter streaming api to cloud-pubsub-bigquery
-    Link to code used for connecting twitter streaming api to cloud pub sub and big query. (Actual code in suspended GCP project)
+   Twitter streaming api to cloud-pubsub-bigquery
+   Link to code used for connecting twitter streaming api to cloud pub sub and big query. (Actual code in   suspended GCP project)
     https://github.com/GoogleCloudPlatform/kubernetes-bigquery-python.git kube-pubsub-bq
   
-    bigquery_extraction.rtf - This is the sql script used to extract the Twitter Streaming API data from our  project's Google BigQuery.  
-   link: https://bigquery.cloud.google.com/project/game-of-thrones-project-202523
+   bigquery_extraction.rtf
+   This is the sql script used to extract the Twitter Streaming API data from our  project's Google BigQuery.  
+   Link to BigQuery: 
+   https://bigquery.cloud.google.com/project/game-of-thrones-project-202523
 
   Cleaning
     BigQuery-TweetData-Transformation.ipynb (This is the script for transforming selected twitter streaming api data fields for loading into MySQL)
