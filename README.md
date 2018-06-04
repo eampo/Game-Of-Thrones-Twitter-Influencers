@@ -5,7 +5,7 @@ MSCA 31012
 This is the GitHub repository for Team Data Ipsum's final project.  
 
 
-Team Members:
+#Team Members:
 Elijah Ampo, Ramkumar Shanker, Chris Stavropoulos
 
 
