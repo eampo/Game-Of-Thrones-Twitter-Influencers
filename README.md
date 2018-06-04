@@ -1,13 +1,18 @@
 # data-engineering
 
 
-
+MSCA 31012
 This is the GitHub repository for Team Data Ipsum's final project.  
 
+
 Team Members:
-Eli Ampo, Ramkumar Shanker, Chris Stavropoulos
+Elijah Ampo, Ramkumar Shanker, Chris Stavropoulos
+
 
 NOTES: Google suspended our Google Cloud Platform projected for 'mining cryptocurrency'. We have filed an appeal but they have not reinstated our project as of today, 6/3/2018.  
+
+
+
 
 Documents:
 
@@ -25,5 +30,5 @@ Documents:
     
   Data Visualization
     Microinfluencer Visualization/Dashboard
-    https://datastudio.google.com/u/0/reporting/1cV6V4F5-lU4oork35W88u6qiOG9Ygpia/page/pHiS
+    https://datastudio.google.com/u/0/reporting/1cV6V4F5-lU4oork35W88u6qiOG9Ygpia/page/pHiS/edit
     
