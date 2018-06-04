@@ -20,7 +20,8 @@ Documents:
     Link to code used for connecting twitter streaming api to cloud pub sub and big query. (Actual code in suspended GCP project)
     https://github.com/GoogleCloudPlatform/kubernetes-bigquery-python.git kube-pubsub-bq
   
-    bigquery_extraction.rtf - This is the sql script used to extract the Twitter Streaming API data from our  project's Google BigQuery. link: https://bigquery.cloud.google.com/project/game-of-thrones-project-202523
+    bigquery_extraction.rtf - This is the sql script used to extract the Twitter Streaming API data from our  project's Google BigQuery.  
+   link: https://bigquery.cloud.google.com/project/game-of-thrones-project-202523
 
   Cleaning
     BigQuery-TweetData-Transformation.ipynb (This is the script for transforming selected twitter streaming api data fields for loading into MySQL)
